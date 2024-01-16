@@ -1,0 +1,44 @@
+## Site Meta ##
+baseurl: ""
+url: ""
+# The title of the website.
+title: "2024 - Offroad Adventure"
+# The description of the website
+description: "A Jekyll theme for photographers and photo bloggers."
+# Keywords/tags for you site.
+keywords: "offroad, adventures, Cambodia"
+# Your copyright message.
+copyright: "Copyright &copy; 2024 - Offroad Adventures."
+
+## Site Configurations ##
+# 1st heading of the site.
+header: "Offroad Adventure"
+# 2nd heading/sub heading of the website.
+subheader: "2024"
+# A description/bio of the website.
+bio: "The best extreme offroad experience in Cambodia."
+social:
+  # Your Twitter username.
+  twitter_username: ""
+  # Your Facebook username.
+  facebook_username: "leng.i.leng"
+  # Your Instagram username.
+  instagram_username: ""
+  # GitHub username.
+  github_username: ""
+  # Your email address.
+  email: ""
+
+## Gallery Configuration ##
+# If you modify this, also modify the `default.scope.path` key below.
+gallery_dir: "gallery"
+# Any valid value of "background-position" CSS attribute.
+image_position: "left center"
+
+## Jekyll Configuration ##
+defaults:
+ - scope:
+    # Should be same as the `gallery_dir` key above.
+    path: "gallery"
+   values:
+    image: true
